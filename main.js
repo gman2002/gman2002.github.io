@@ -8,5 +8,5 @@ function gotData(data) {
 }
 
 function call() {
-	document.body.innerHTML = "<p2>"+debt+"</p2>;"
+	document.body.innerHTML = "<p2>"+debt+"</p2>";
 }
