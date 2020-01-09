@@ -9,6 +9,6 @@ function gotData(data) {
 
 function call() {
 	if (debt) {
-		document.body.innerHTML = debt;
+		document.body.innerHTML = "<p2>"+debt+"</p2>;"
 	}
 }
