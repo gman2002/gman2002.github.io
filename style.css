@@ -19,8 +19,11 @@ table {
 }
 
 table:hover {
+  transition: 500ms;
   padding-right: 100px;
   animation: hoverview 5s infinite;
+  border-radius: 25px;
+
 }
 
 @keyframes hoverview {
