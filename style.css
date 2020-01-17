@@ -24,14 +24,23 @@ h2 {
   -webkit-text-fill-color: transparent;
 }
 
-table {
+#tablelarge {
   font-size: 30px;
   background-color: #333333;
   padding-top: 10px;
-  margin-right: 50px;
-  margin-left: 50px;
-  
+  margin-right: 10px;
+  margin-left: 10px;
+  display: none;
 }
+
+#tablesmall {
+  font-size: 30px;
+  background-color: #333333;
+  padding-top: 10px;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
 
 #div1 {
   background-color: #333333;
@@ -47,20 +56,20 @@ p1 {
   color: #0086b3;
 }
 
-table:hover {
+#tablelarge:hover {
   transition: 1000ms;
   border-radius: 25px;
-  padding-left: 75px; 
-  padding-right: 75px;
+  padding-left: 75px;
 }
 
 html {
   background-image: url("https://image.freepik.com/free-photo/close-up-vinyl-record-black-background_23-2147889973.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
 }
 
-/*@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 	h1 {
 		font-size: 80px;
 	}
@@ -69,10 +78,17 @@ html {
 		font-size: 50px;
 	}
 
-	table {
+	#tablelarge {
 		font-size: 50px;
 		margin-right: 75px; 
-		margin-left: 140px;
+		margin-left: 75px;
+    padding-left: 10px;
+    padding-right: 30px;
+    display: block;
 	}
+  
+  #tablesmall {
+    display: none;
+  }
 
-}*/
+}
