@@ -54,9 +54,8 @@ table:hover {
   padding-right: 75px;
 }
 
-body {
+html {
   background-image: url("https://image.freepik.com/free-photo/close-up-vinyl-record-black-background_23-2147889973.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: 1920px 1080px;
 }
