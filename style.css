@@ -60,7 +60,7 @@ html {
   background-size: cover;
 }
 
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
 	h1 {
 		font-size: 80px;
 	}
@@ -75,4 +75,4 @@ html {
 		margin-left: 140px;
 	}
 
-}
+}*/
