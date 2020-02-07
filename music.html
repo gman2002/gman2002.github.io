@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="music.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="main.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  
+<h1 id="menu">
+  <div class="header-left">
+    <h id="pagetitle">Gavin Rich</h>
+    <div class="header-big">
+      <a id="mainlinkbig" href="home.html">
+        <h id="main">Main</h>
+      </a>
+      <h id="music">Music</h>
+    </div>
+    <div class="header-small">
+      <button class="btn"><i class="fa fa-bars"></i></button>
+    </div>
+</h1>
+    <div class="linksSmall">
+     <ul id="links">
+      <a id="mainlinksmall" href="main.html">
+        <li id="mainlink">Main</li>
+      </a>
+      <li id="musiclink">Music</li>
+    </div>
+</h1>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.btn').click(function(){
+      $('.linksSmall').toggleClass('active')
+    })
+  })
+</script>
+  
+<div id="div1">
+<h1 id="secondpagetitle">Jams By Gavin:</h1>
+</div>
+<table id="tablelarge" style="width:75%">
+  <tr>
+    <th> <img id="rubik" src="https://cdn.pixabay.com/photo/2017/07/27/12/07/rubiks-cube-2545108_960_720.jpg" height="75" width="75"></img> 
+    </th>
+  <th><p1>Nostalgic</p1></th>
+    <th><audio controls>
+    <source src="Nostalgic.wav" type="audio/wav">
+      </audio></th>
+  </tr>
+</table>
+
+<table id="tablesmall" style="width:75%">
+  <tr>
+    <th> <img id="rubik" src="https://cdn.pixabay.com/photo/2017/07/27/12/07/rubiks-cube-2545108_960_720.jpg" height="75" width="75"></img> 
+    </th>
+  </tr>
+  <tr>
+    <th><p1>Nostalgic</p1></th>
+  </tr>
+  <tr>
+    <th><audio controls>
+    <source src="Nostalgic.wav" type="audio/wav">
+      </audio></th>
+  </tr>
+</table>
+
+<script
+ src="gman2002.github.io/main.js"> </script>
+</body>
+</html>
