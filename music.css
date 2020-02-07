@@ -1,0 +1,189 @@
+#secondpagetitle { 
+  background-color: #f2f2f2;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+#tablelarge {
+  font-size: 30px;
+  background-color: #f2f2f2;
+  padding-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: none;
+}
+
+#tablesmall {
+  font-size: 30px;
+  background-color: #f2f2f2;
+  padding-top: 10px;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+
+#div1 {
+  background-color: #333333;
+}
+
+p1 {
+  color: #0086b3;
+}
+
+#tablelarge:hover {
+  transition: 1000ms;
+  border-radius: 25px;
+  padding-left: 75px;
+}
+
+.header-left {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 7vw;
+}
+
+.header-big {
+  float: right;
+}
+
+.header-small {
+  float: right;
+}
+
+#menu {
+  background-color: #f2f2f2;
+  margin-top: -8px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#main {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#mainlinkbig {
+  text-decoration: none;
+  color: black;
+}
+
+#mainlinksmall {
+  text-decoration: none;
+  color: black;
+}
+
+#main:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+#music {
+  background-color: yellow;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: yellow;
+  border: none;
+  color: white;
+  padding: 5vw 5vw;
+  font-size: 7vw;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: -15px;
+  border-radius: 40px;
+}
+
+.linksSmall {
+  display: none;
+  width: 100%;
+  margin-left: -40px;
+  list-style-type: none;
+  text-align: center;
+  font-size: 10vw;
+}
+
+#mainlink {
+  background-color: gray;
+  color: white;
+  margin-top: -20px;
+  margin-left: -10px;
+}
+
+#mainlink:hover {
+  background-color: yellow;
+  color: black;
+}
+
+#musiclink {
+  background-color: yellow;
+  color: black;
+  margin-left: -10px;
+}
+
+#musiclink:hover {
+  background-color: yellow;
+  color: black;
+}
+
+
+@media screen and (min-width: 326px) {
+  .header-small {
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 325px) {
+  .header-big {
+    display: none;
+  }
+  
+  .linksSmall.active {
+    display: block;
+    margin-top: -32px;
+    position: fixed;
+    width: 110vw;
+  }
+  
+  #tablesmall {
+    margin-left: 0px;
+  }
+  
+  #secondpagetitle {
+    margin-top: 80px;
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+	#secondpagetitle {
+		font-size: 80px;
+	}
+
+	#tablelarge {
+		font-size: 50px;
+		margin-right: 75px; 
+		margin-left: 75px;
+    padding-left: 10px;
+    padding-right: 30px;
+    display: block;
+	}
+  
+  #tablesmall {
+    display: none;
+  }
+
+}
