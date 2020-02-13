@@ -1,0 +1,153 @@
+.header-top {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 5vw;
+}
+
+.links {
+  float: right;
+}
+
+.header-small {
+  float: right;
+}
+
+#header {
+  background-color: #f2f2f2;
+  margin-top: -8px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#mainlinkbig {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+#mainlinkbig:hover {
+  background-color: yellow;
+}
+
+#music:hover {
+  background-color: yellow;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+#musiclinkbig {
+  text-decoration: none;
+  color: black;
+}
+
+#reviewlinkbig {
+  text-decoration: none;
+  color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.btn {
+  background-color: yellow;
+  border: none;
+  color: white;
+  padding: 2vw 3vw;
+  font-size: 7vw;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: -15px;
+  border-radius: 40px;
+}
+
+.linksSmall {
+  display: none;
+  width: 100%;
+  margin-left: -40px;
+  list-style-type: none;
+  text-align: center;
+  font-size: 10vw;
+}
+
+#mainlinksmall {
+  text-decoration: none;
+}
+
+#mainlink {
+  background-color: gray;
+  color: white;
+  margin-left: -10px;
+  margin-top: -20px;
+  margin-left: -10px;
+}
+
+#mainlink:hover {
+  background-color: yellow;
+  color: black;
+}
+
+#musiclinksmall {
+  text-decoration: none;
+}
+
+#musiclink {
+  background-color: gray;
+  color: white;
+  margin-left: -10px;
+}
+
+#musiclink:hover {
+  background-color: yellow;
+  color: black;
+}
+
+#reviewlinksmall {
+  text-decoration: none;
+}
+
+#reviewlink {
+  background-color: gray;
+  color: white;
+  margin-left: -10px;
+}
+
+#reviewlink:hover {
+  background-color: yellow;
+  color: black;
+}
+
+#reviewlinkbig:hover {
+  background-color: yellow;
+}
+
+@media screen and (min-width: 356px) {
+  .header-small {
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 355px) {
+  .links {
+    display: none;
+  }
+  
+  .linksSmall.active {
+    display: block;
+    margin-top: -32px;
+    position: fixed;
+    width: 110vw;
+  }
+}
