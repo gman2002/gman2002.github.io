@@ -38,14 +38,14 @@ p1 {
   padding-left: 75px;
 }
 
-.header-left {
+.header-top {
   padding-left: 20px;
   padding-right: 20px;
   font-weight: bold;
-  font-size: 7vw;
+  font-size: 5vw;
 }
 
-.header-big {
+.links {
   float: right;
 }
 
@@ -53,37 +53,29 @@ p1 {
   float: right;
 }
 
-#menu {
+#header {
   background-color: #f2f2f2;
   margin-top: -8px;
   padding-top: 25px;
   padding-bottom: 25px;
-  margin-bottom: -55px;
-}
-
-#main {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 #mainlinkbig {
   text-decoration: none;
   color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 5px;
 }
 
-#mainlinksmall {
-  text-decoration: none;
-  color: black;
-}
-
-#main:hover {
+#mainlinkbig:hover {
   background-color: yellow;
-  cursor: pointer;
 }
 
-#music {
+#music:hover {
   background-color: yellow;
   margin-left: -10px;
   margin-right: -10px;
@@ -94,11 +86,25 @@ p1 {
   cursor: pointer;
 }
 
+#musiclinkbig {
+  text-decoration: none;
+  color: black;
+}
+
+#reviewlinkbig {
+  text-decoration: none;
+  color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .btn {
   background-color: yellow;
   border: none;
   color: white;
-  padding: 5vw 5vw;
+  padding: 2vw 3vw;
   font-size: 7vw;
   cursor: pointer;
   margin-right: 5px;
@@ -115,9 +121,14 @@ p1 {
   font-size: 10vw;
 }
 
+#mainlinksmall {
+  text-decoration: none;
+}
+
 #mainlink {
   background-color: gray;
   color: white;
+  margin-left: -10px;
   margin-top: -20px;
   margin-left: -10px;
 }
@@ -127,9 +138,13 @@ p1 {
   color: black;
 }
 
+#musiclinksmall {
+  text-decoration: none;
+}
+
 #musiclink {
-  background-color: yellow;
-  color: black;
+  background-color: gray;
+  color: white;
   margin-left: -10px;
 }
 
@@ -138,16 +153,34 @@ p1 {
   color: black;
 }
 
+#reviewlinksmall {
+  text-decoration: none;
+}
 
-@media screen and (min-width: 326px) {
+#reviewlink {
+  background-color: gray;
+  color: white;
+  margin-left: -10px;
+}
+
+#reviewlink:hover {
+  background-color: yellow;
+  color: black;
+}
+
+#reviewlinkbig:hover {
+  background-color: yellow;
+}
+
+@media screen and (min-width: 356px) {
   .header-small {
     display: none;
   }
   
 }
 
-@media screen and (max-width: 325px) {
-  .header-big {
+@media screen and (max-width: 355px) {
+  .links {
     display: none;
   }
   
@@ -157,34 +190,4 @@ p1 {
     position: fixed;
     width: 110vw;
   }
-  
-  #tablesmall {
-    margin-left: 0px;
-  }
-  
-  #secondpagetitle {
-    margin-top: 80px;
-  }
-}
-
-
-
-@media only screen and (min-width: 768px) {
-	#secondpagetitle {
-		font-size: 80px;
-	}
-
-	#tablelarge {
-		font-size: 50px;
-		margin-right: 75px; 
-		margin-left: 75px;
-    padding-left: 10px;
-    padding-right: 30px;
-    display: block;
-	}
-  
-  #tablesmall {
-    display: none;
-  }
-
 }
